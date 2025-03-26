@@ -39,13 +39,19 @@ nav li + li{
 }
 
 /* Exercice 08 */
-
+.exercice08 li:nth-child(-n+3){
+    background-color: red;
+}
 
 /* Exercice 09 */
-
+.exercice09 li:nth-last-child(2){
+    background-color: red;
+}
 
 /* Exercice 10 */
-
+.exercice10 li:nth-child(n+14):nth-child(-n+23){
+    background-color: red;
+}
 
 /* Exercice 11 */
 
